@@ -1,0 +1,26 @@
+# Virtual Environment (Local Python packages)
+.venv/
+venv/
+ENV/
+
+# Secrets & Environment Variables (Most Important!)
+.env
+
+# Python caching mechanism (Har folder ke pycache ko block karega)
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local Database (SQLite tracking files)
+*.db
+data.db
+
+# Heavy Machine Learning Models (Local bin/task files)
+core/ml_models/pose_landmarker_full.task
+*.task
+*.onnx
+*.h5
+
+# Streamlit local configuration updates
+.streamlit/config.toml
